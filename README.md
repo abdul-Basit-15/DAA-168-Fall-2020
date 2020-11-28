@@ -10,3 +10,4 @@ StdID | Name
 
 ## Description ##
 This repository contains assignments and project submitted to DAA course offered in Fall 2020 at PafKiet.
+Project documentation,code and files are in Phase_1 folder.
