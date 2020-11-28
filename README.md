@@ -12,6 +12,9 @@ StdID | Name
 This repository contains assignments and project submitted to DAA course offered in Fall 2020 at PafKiet.
 **Project** documentation,code and files are in **Phase_Final** folder.
 
+## Algorithm ##
+For rather broad concerns, DP may not be feasible. Actually, DP strategies are very successful. If we disregard a few technical specifics, then in the number of states and behavior, the worst case time DP methods take to find an optimal strategy is polynomial. DP is exponentially faster than any direct search in the policy space, as each policy will have to be carefully investigated by direct search to provide the same assurance.
+
 ## Reference ##
 https://www.codesdope.com/course/algorithms-backtracking/	
 
