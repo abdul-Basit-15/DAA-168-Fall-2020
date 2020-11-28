@@ -15,6 +15,8 @@ This repository contains assignments and project submitted to DAA course offered
 ## Algorithm ##
 For rather broad concerns, DP may not be feasible. Actually, DP strategies are very successful. If we disregard a few technical specifics, then in the number of states and behavior, the worst case time DP methods take to find an optimal strategy is polynomial. DP is exponentially faster than any direct search in the policy space, as each policy will have to be carefully investigated by direct search to provide the same assurance.
 
+For any brute force method, the backtracking algorithm of An N Queens is far more effective. The idea is to put one queen on one edge and then proceed to the first correct location of the next queen (in the next row / column) and so on. The algorithm has either found a solution (if all queens are placed) or it needs to delete the processed queen and move the previous one to the next valid location when no further queens can be placed. If a queen has been positioned in a row / column in the last valid position and needs to be replaced, it must be deleted and the former position must be transferred to the next valid position.
+
 ## Reference ##
 https://www.codesdope.com/course/algorithms-backtracking/	
 
