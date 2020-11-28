@@ -17,6 +17,10 @@ For rather broad concerns, DP may not be feasible. Actually, DP strategies are v
 
 For any brute force method, the backtracking algorithm of An N Queens is far more effective. The idea is to put one queen on one edge and then proceed to the first correct location of the next queen (in the next row / column) and so on. The algorithm has either found a solution (if all queens are placed) or it needs to delete the processed queen and move the previous one to the next valid location when no further queens can be placed. If a queen has been positioned in a row / column in the last valid position and needs to be replaced, it must be deleted and the former position must be transferred to the next valid position.
 
+Brute Force Algorithms are just as they sound like, basic approaches that rely on pure computational resources to solve a problem and attempt every possibility to increase performance rather than complex techniques.
+
+We haven't use JS before we have faced lot of problems but we are able to done with all algorithms but one thing we that irritate us is to plot a graph through algorithm and we did this.
+
 ## Reference ##
 https://www.codesdope.com/course/algorithms-backtracking/	
 
